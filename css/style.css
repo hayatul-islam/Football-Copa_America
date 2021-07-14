@@ -45,7 +45,7 @@ body{
     margin-top: 50px;
     padding-bottom: 85px;
 }
-.half-width h1{
+.half-width .copa-title{
     color: #fff;
     font-size: 64px;
     letter-spacing: 2px;
