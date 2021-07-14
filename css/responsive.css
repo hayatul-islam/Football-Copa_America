@@ -39,6 +39,23 @@
     .highlight-title{
         font-size: 30px;
     }
+    /* man of the match section  */
+    .manOfTheMatch{
+        margin-top: 40px;
+    }
+    .manOfTheMatch .match{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* teams section  */
+    .team-area{
+        margin-top: 40px;
+    }
+    .team-area .team-title{
+        font-size: 30px;
+    }
+    .team-area .teams{
+        padding-left: 20px;
+    }
     /* footer section  */
     .footer-area{
         margin-top: 50px;
