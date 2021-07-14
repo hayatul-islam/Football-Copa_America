@@ -1,7 +1,9 @@
 /* fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
 
-/* common utilities*/
+/********************
+ common utilities
+ ********************/
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -32,7 +34,7 @@ body{
     overflow: hidden;
 }
 .header-area:hover{
-    transform: scale(1.06) skew(2deg);
+    transform: scale(1.03) skew(2deg);
     transition: transform 2s ease-in-out;
 }
 .header-menu{
@@ -98,7 +100,9 @@ body{
     color: #6C6C6C;
     line-height: 25px;
 }
-/* highlights section  */
+/*************************
+ highlights section  
+ **********************/
 .highlights-area{
     margin-top: 140px;
 }
@@ -125,7 +129,42 @@ body{
 .highlight img{
     width: 100%;
 }
-/* footer section  */
+/****************************
+ man of the match section  
+ **************************/
+ .manOfTheMatch{
+    margin-top: 80px;
+}
+.manOfTheMatch .match-banner{
+    width: 100%;
+}
+.match{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.match img{
+    width: 100%;
+}
+/****************
+teams section 
+***************/
+.team-area{
+    margin-top: 80px;
+}
+.team-area .team-title{
+    font-size: 50px;
+}
+.team-area .teams{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+.teams img{
+    width: 250px;
+    height: 250px;
+}
+/**************************
+ footer section  
+ ***********************/
 .footer-area{
     margin-top: 130px;
     margin-bottom: 40px;
@@ -153,3 +192,4 @@ body{
 .footer-area p{
     font-size: 18px;
 }
+
