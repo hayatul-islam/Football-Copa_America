@@ -1,10 +1,7 @@
 
-/* mobile devises  */
-@media only screen and (max-width: 480px){
+/* mobile devices  */
+@media only screen and (max-width: 768px){
     /* header section  */
-    .header-area{
-        
-    }
     .container{
         width: 330px;
     }
@@ -54,7 +51,7 @@
         font-size: 30px;
     }
     .team-area .teams{
-        padding-left: 20px;
+        padding-left: 25px;
     }
     /* footer section  */
     .footer-area{
@@ -63,4 +60,52 @@
     .footer-area .logo{
         height: 50px;
     }
+}
+
+/* iPads, Tablets devices */
+@media only screen and (min-width: 500px) and (max-width: 768px){
+    .container{
+        width: 95%;
+    }
+    .header-area{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .half-width .copa-title{
+        font-size: 50px;
+    }
+
+    /* players section  */
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5%;
+    }
+    .player .player-name{
+        font-size: 24px;
+    }
+    /* highlights section  */
+    .highlights{
+        margin-left: 5%;
+    }
+    .highlight-title{
+        font-size: 37px;
+    }
+    /* man of the match  */
+    .manOfTheMatch{
+        margin-left: 5%;
+    }
+    .manOfTheMatch .match{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* teams section  */
+    .team-area .teams{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5%;
+    }
+    .team-area .team-title{
+        font-size: 37px;
+    }
+
+
 }

@@ -156,22 +156,25 @@ teams section
 }
 .team-area .teams{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
 .teams img{
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
 }
 /**************************
  footer section  
  ***********************/
 .footer-area{
-    margin-top: 130px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding-top: 54px;
+    margin-top: 75px;
     text-align: center;
+    background: #f7f6ff;
 }
 .footer-area .logo{
     height: 110px;
+    background: none;
 }
 .social-icons{
     display: flex;
