@@ -33,8 +33,8 @@
     .highlights{
         grid-template-columns: 1fr;
     }
-    .highlight-title{
-        font-size: 30px;
+    .highlight .highlight-title{
+        font-size: 24px;
     }
     /* man of the match section  */
     .manOfTheMatch{
@@ -87,7 +87,7 @@
         margin-left: 5%;
     }
     .highlight-title{
-        font-size: 37px;
+        font-size: 24px;
     }
     /* man of the match  */
     .manOfTheMatch{
