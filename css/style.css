@@ -34,7 +34,7 @@ body{
     overflow: hidden;
 }
 .header-area:hover{
-    transform: scale(1.03) skew(2deg);
+    transform: scale(1.02) skew(.02deg);
     transition: transform 2s ease-in-out;
 }
 .header-menu{
@@ -47,6 +47,9 @@ body{
     font-size: 16px;
     font-weight: 500;
     margin-right: 36px;
+}
+.menu-item a:hover{
+    color: orange;
 }
 .copa-america{
     display: grid;
@@ -144,6 +147,9 @@ body{
 }
 .match img{
     width: 100%;
+}
+.match img:hover{
+    transform: scale(1.1);
 }
 /****************
 teams section 
