@@ -74,7 +74,6 @@
     .half-width .copa-title{
         font-size: 50px;
     }
-
     /* players section  */
     .players{
         grid-template-columns: repeat(2, 1fr);
@@ -106,6 +105,28 @@
     .team-area .team-title{
         font-size: 37px;
     }
+}
 
-
+@media only screen and (min-width: 769px) and (max-width: 1172px){
+    .container{
+        width: 95%;
+    }
+    /* header section  */
+    .header-area{
+        padding-left: 5%;
+    }
+    .half-width .copa-title{
+        font-size: 38px;
+    }
+    main{
+        margin-left: 5%;
+    }
+    /* .highlight section  */
+    .highlight{
+        padding: 0;
+        margin-top: -10px;
+    }
+    .highlight .highlight-title{
+        font-size: 30px;
+    }
 }

@@ -94,7 +94,7 @@ body{
     font-size: 28px;
     color: #18191F;
 }
-.player-info{
+.player .player-info{
     margin-top: 10px;
     font-size: 16px;
     color: #6C6C6C;
@@ -114,12 +114,12 @@ body{
 .highlight{
     padding: 20px;
 }
-.highlight-title{
+.highlight .highlight-title{
     color: #0A0826;
     font-size: 48px;
     margin-bottom: 0;
 }
-.highlight-info{
+.highlight .highlight-info{
     margin-top: 8px;
     padding-bottom: 24px;
     font-size: 16px;
@@ -156,11 +156,11 @@ teams section
 }
 .team-area .teams{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 .teams img{
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
 }
 /**************************
  footer section  
